@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home_achtergrond {
+  background-image: url(images/achtergrond1.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(0.7px);
+}
+
+.initiatieven_achtergrond {
+  background-image: url(images/achtergrond2.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(0.9px);
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header > a img {
+  width: 90px;
+  padding-right: 0.5rem;
+}
+
+h1 {
+  font-family: "KoHo", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 450;
+  color: white;
+}
+
+h2 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  font-family: "KoHo", sans-serif;
+  font-weight: 550;
+  color: white;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "KoHo", sans-serif;
+  font-weight: 550;
+  color: black;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "Sarabun", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+.home {
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
+}
+
+.home h3 {
+  color: white;
+}
+
+.home img {
+  width: 103px;
+  height: auto;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.knoppen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+.knoppen > a img {
+  width: 150px;
+  height: 70px;
+}
+
+.knoppen > a:active {
+  transform: scale(1.05);
+}
+
+.talks {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 375px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.talks_en_knop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.talks_en_knop > img {
+  display: flex;
+  width: 170px;
+  align-items: center;
+}
+
+.talks_en_knop > a img {
+  display: flex;
+  width: 100px;
+}
+
+.talks_en_knop > a img:active {
+  transform: scale(1.05);
+}
+
+.initiatieven {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 1rem;
+}
+
+.initiatieven h3 {
+  color: white;
+}
+
+.initiatieven img {
+  width: 100px;
+  padding-top: 5rem;
+}
+
+.muntjes {
+  width: 700px;
+  background-image: url(images/tokens.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flesjes {
+  width: 800px;
+  background-image: url(images/flesje.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eten {
+  width: 1000px;
+  background-image: url(images/vega_eten.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.stroom {
+  width: 1100px;
+  background-image: url(images/generator.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eigen_initiatief {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.eigen_initiatief h3 {
+  color: white;
+}
+
+footer {
+  background-color: #55baa6;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-family: "Sarabun", sans-serif;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: underline;
+  color: black;
+}
